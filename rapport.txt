@@ -1,0 +1,23 @@
+Avant de commancer a programmer: 
+
+On a passer trop de temps a installer correctement les libraries de ROCR (sur osx) je n’utilisais pas R studio et sa ma pris du temps a setter un environnement de travail, mon collègue qui se servais de R studio n’a pas eu c’est problème la. Ensuite on a pris du temps pour lire la matière du cours pour se mettre au niveau et essayer de comprendre se que l’on devais faire.
+
+Pendent que on a programmer: 
+
+Le plus gros défi que on a eu c’était que notre compression de la matière est très fragmenter. 
+On comprenait plusieurs morceaux du puzzle mais on ne savait pas dans quel ordre les placers ni si on les avait tous. 
+
+Donc explication de se que l’on n’a fait, en premiere lieu on load en mémoire le fichier CSV. 
+Puis on séparer le fichier en deux ensemble un de test et l’autre d’entrainement, 
+Ensuite on construit notre arbre de recursion avec RPART avec les donnée d’entrainement. 
+Pour valider notre arbre c’est la que on a eu plus de problème on construit des courbe ROC. Pour produire ces courbe ROC on utilise la fonction Predict avec en paramètre notre arbre de recursion et l’ensemble des données de test. 
+
+#simon faut décrire comment on fait le reste pi comment ta merger les class
+
+Avec c’est donner la on peut ajuster notre arbre de recursion on a plus ajuster du mieux que on pouvais notre arbre de recursion. 
+
+Apres avoir programmer: 
+
+Comme expliquer plus haut notre compression est très fragmenter, on a fini par bien comprendre comment fonctione un arbre de recursion mais pour se qui est de l’élagage je ne peux pas dire que je comprend le pourquoi mathématique et algorithmique c’est plus jouer avec les chiffre avec la fonction a peu près pour que sa donne quel que chose qui ai du bon sang.
+
+Pour ce qui est des courbe ROC je crois avoir compris la base mais sa va demander plus de temps d’etude pour bien comprendre les subtilités. 
